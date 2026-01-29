@@ -59,3 +59,12 @@ USE xyz;
 -- DROP class ;
 -- ALTER TABLE info;
 SELECT *FROM info WHERE full_name LIKE 'A%'
+- Select DISTINCT city FROM students;
+SELECT * FROM students 
+ORDER BY AGE ASC;
+
+SELECT *FROM students 
+Limit 5;
+SELECT *FROM students
+ORDER BY age ASC
+Limit 3
