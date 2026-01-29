@@ -1,0 +1,61 @@
+-- CREATE DATABASE xyz;
+USE xyz;
+-- CREATE TABLE detail(
+-- id INT PRIMARY KEY,
+-- name VARCHAR(50),
+-- salary INT
+-- );
+-- INSERT INTO detail (id,name,salary)
+-- VALUES
+-- (10,"adam",25000),
+-- (11,"bob",5000);
+-- SELECT *FROM detail;
+-- SELECT name from detail;
+-- SELECT id from detail WHERE id>6;
+-- ALTER TABLE detail
+-- ADD marks INT;
+-- INSERT INTO detail VALUES(12,"tripti",23,99);
+-- INSERT INTO detail VALUES(13,"chesta",13,78);
+-- SELECT *FROM detail WHERE  marks BETWEEN 90 AND  100;
+-- SELECT *FROM detail LIMIT 5;
+-- SELECT *FROM detail ORDER BY marks DESC;
+-- SELECT AVG(marks) FROM detail;
+-- CREATE TABLE info(
+-- name VARCHAR(50),
+-- marks INT ,
+-- garde VARCHAR(20),
+-- city VARCHAR(30)
+-- );
+-- INSERT INTO info (name, marks, garde, city)
+-- VALUES
+-- ('Aarav', 88, 'A', 'Delhi'),
+-- ('Neha', 76, 'B', 'Jaipur'),
+-- ('Rohan', 92, 'A', 'Delhi'),
+-- ('Simran', 69, 'C', 'Chandigarh'),
+-- ('Aditya', 81, 'A', 'Jaipur');
+--  ALTER TABLE info
+-- CHANGE name  full_name varchar(50);
+
+-- DELETE FROM info
+-- WHERE marks<80;
+
+-- SELECT *
+-- FROM info
+-- GROUP BY city;
+-- SELECT name
+-- FROM info
+-- WHERE garde='A'
+-- UPDATE info
+-- SET garde='o'
+-- WHERE garde='A';
+-- SELECT* FROM info;
+-- -- DELETE FROM info
+-- -- WHERE garde='o';
+-- DROP TABLE info
+
+-- ALTER TABLE info
+-- ADD class INT;
+-- ALTER TABLE info
+-- DROP class ;
+-- ALTER TABLE info;
+SELECT *FROM info WHERE full_name LIKE 'A%'
